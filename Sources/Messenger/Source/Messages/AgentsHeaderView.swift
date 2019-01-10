@@ -58,7 +58,7 @@ public class AgentsHeaderView: ASDisplayNode {
 	
 	func load(_ agentsHeaderModel: AgentsHeaderModel) {
 		
-		for node in self.subnodes {
+        for node in self.subnodes! {
 			node.removeFromSupernode()
 		}
 		

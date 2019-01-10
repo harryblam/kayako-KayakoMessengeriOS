@@ -32,7 +32,7 @@ class CondensedAgentView: ASDisplayNode {
 	
 	func load(_ condensedAgentViewModel: CondensedAgentViewModel) {
 		
-		for node in self.subnodes {
+        for node in self.subnodes! {
 			node.removeFromSupernode()
 		}
 		
